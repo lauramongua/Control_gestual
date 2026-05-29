@@ -1,6 +1,7 @@
 import cv2
 import mediapipe as mp
 import numpy as np
+import webbrowser
 
 # Importar el nuevo motor de tareas de MediaPipe
 BaseOptions = mp.tasks.BaseOptions
@@ -65,7 +66,13 @@ with HandLandmarker.create_from_options(options) as landmarker:
                     gesto_actual = "Puno cerrado"
                 elif dedos_levantados >= 4:
                     gesto_actual = "Mano abierta"     
-                
+
+                if gesto_actual == "Puno cerrado":
+                    webbrowser.open("https://www.google.com")
+                elif gesto_actual == "Mano abierta":
+                    print("...")
+
+
                 #Pinta el gesto en pantalla
                 cv2.putText(frame, f"Gesto: {gesto_actual}", (30, 60), 
                             cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2, cv2.LINE_AA)
