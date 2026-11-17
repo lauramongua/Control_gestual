@@ -4,11 +4,9 @@
   <p><strong>Interacción humano-computadora sin contacto mediante visión artificial y seguimiento de 21 puntos clave en tiempo real.</strong></p>
 
   <p>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-    <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
-    <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white" alt="MediaPipe" />
-    <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-    <img src="https://img.shields.io/badge/PyAutoGUI-Automation-2EA44F?style=for-the-badge" alt="PyAutoGUI" />
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=python,opencv,vscode,git,github" />
+    </a>
   </p>
 
   <p>
@@ -55,4 +53,7 @@ flowchart LR
     D --> E["05 Ejecución OS<br/>(PyAutoGUI / Subprocess)"]
     
     style A fill:#161b22,stroke:#ff6b00,stroke-width:2px,color:#fff
-    style B fill:#161b22,stroke:#38bdf8,stroke-width:2px,color:#
+    style B fill:#161b22,stroke:#38bdf8,stroke-width:2px,color:#fff
+    style C fill:#161b22,stroke:#a855f7,stroke-width:2px,color:#fff
+    style D fill:#161b22,stroke:#38bdf8,stroke-width:2px,color:#fff
+    style E fill:#ff6b00,stroke:#fff,stroke-width:2px,color:#fff
