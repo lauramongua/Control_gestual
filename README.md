@@ -1,6 +1,4 @@
 <div align="center">
-  
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Raised%20Hand.png" alt="Hand Tracking" width="90" height="90" />
 
   <h1>Control Gestual del Sistema</h1>
   <p><strong>Interacción humano-computadora sin contacto mediante visión artificial y seguimiento de 21 puntos clave en tiempo real.</strong></p>
